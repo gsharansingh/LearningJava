@@ -1,4 +1,3 @@
-package com.ConstructorFirst;
 public class ConstVip{
     private String name;
     private int creditLimit;
@@ -17,6 +16,6 @@ public class ConstVip{
     }
 
     public void getStatus(){
-        System.out.println("Name of the person : "+ name +"\nCredit Limit" + creditLimit + "\nEmail Address : " + email);
+        System.out.println("Name of the person : "+ name +"\nCredit Limit : " + creditLimit + "\nEmail Address : " + email);
     }
 }
